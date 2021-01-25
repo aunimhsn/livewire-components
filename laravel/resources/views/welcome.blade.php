@@ -4,7 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Laravel</title>
+        <title>Livewire | Components</title>
+
+        <!-- Favicon -->
+        <link rel="icon" href="{{ asset('favicon.png') }}">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -19,10 +22,8 @@
     </head>
     <body class="antialiased bg-gray-200">
         
-
-        @livewire('auth.register')
-
-
+        @livewire('counter')
+        
         @livewireScripts
     </body>
 </html>
